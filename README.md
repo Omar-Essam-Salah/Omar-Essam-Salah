@@ -59,14 +59,20 @@ SD-card ROM browser and runs NES, Game Boy, Master System and Mega Drive, with W
 
 C++ · ESP32-S3 · PlatformIO · I2S audio · ST7789 · FreeRTOS
 
-### Security and hardware
-I build and assemble Flipper Zero dev kits and other RF, NFC and sub-GHz gear, flash and mod the firmware,
-and use them to understand how devices really talk to each other. Same instinct as the day job: learn how
-something breaks, then close the gap.
+### [Security and hardware](https://github.com/Omar-Essam-Salah/embedded-security-suite)
+I build wireless-security research tools on M5Stick and ESP32: customized Bruce firmware with a Flipper
+Zero-inspired UI, WiFi and BLE auditing, NFC and RFID testing, and a BLE-authentication access control, for
+authorized testing only. I also build and assemble Flipper Zero and RF gear. Same instinct as the day job:
+learn how something breaks, then close the gap.
 
 ### Enterprise IT and local AI
 At work I run and automate networks and servers, and I build local-AI setups that keep data in house,
 offline RAG and self-hosted models with Ollama.
+
+## More on GitHub
+- [ble-gyro-mouse](https://github.com/Omar-Essam-Salah/ble-gyro-mouse) — a wireless ESP32 + MPU6050 air-mouse that pairs as a standard BLE HID, no drivers.
+- [hardware-password-vault](https://github.com/Omar-Essam-Salah/hardware-password-vault) — an offline, hardware-encrypted password manager that resists remote software attacks.
+- [dasai-mochi](https://github.com/Omar-Essam-Salah/dasai-mochi) — a compact interactive desk robot with expressive animation on a small TFT display.
 
 ## Tech
 
@@ -99,7 +105,9 @@ offline RAG and self-hosted models with Ollama.
 **Security and Hardware Hacking**
 
 ![Flipper Zero](https://img.shields.io/badge/Flipper%20Zero-FF8200?style=flat-square)
+![M5Stick](https://img.shields.io/badge/M5Stick-E60012?style=flat-square)
 ![Sub-GHz RF](https://img.shields.io/badge/Sub--GHz%20RF-222222?style=flat-square)
+![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
 ![RFID / NFC](https://img.shields.io/badge/RFID%20%2F%20NFC-222222?style=flat-square)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 
